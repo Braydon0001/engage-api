@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Engage.Infrastructure</RootNamespace>
+    <AssemblyName>Engage.Infrastructure</AssemblyName>
+	<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+	<ImplicitUsings>true</ImplicitUsings>  
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.19.1" />
+    <PackageReference Include="ClosedXML" Version="0.102.2" />
+    <PackageReference Include="CsvHelper" Version="31.0.2" />
+    <PackageReference Include="EPPlus" Version="7.0.9" />
+    <PackageReference Include="Handlebars.Net" Version="2.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Okta.Sdk" Version="5.6.0" />
+    <PackageReference Include="QuestPDF" Version="2023.12.6" />
+    <PackageReference Include="SendGrid" Version="9.29.2" />
+    <PackageReference Include="Twilio" Version="7.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application\Application.csproj" />
+  </ItemGroup>
+
+</Project>

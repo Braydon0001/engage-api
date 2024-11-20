@@ -1,0 +1,15 @@
+﻿global using Engage.Application.Interfaces;
+global using Engage.Application.Models;
+global using Engage.Domain.Common;
+global using Engage.Domain.Entities;
+global using Engage.Domain.Entities.FileEntities;
+global using Engage.Domain.Entities.LinkEntities;
+global using Engage.Domain.Entities.Views;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using System;
+global using System.Linq;
+global using System.Linq.Expressions;
+global using System.Reflection;
+global using System.Threading;
+global using System.Threading.Tasks;

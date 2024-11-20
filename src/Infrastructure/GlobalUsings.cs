@@ -1,0 +1,15 @@
+﻿global using Engage.Application.Exceptions;
+global using Engage.Application.Extensions;
+global using Engage.Application.Files;
+global using Engage.Application.Interfaces;
+global using Engage.Application.Models;
+global using Engage.Application.Models.Configuration;
+global using Engage.Domain.Entities.FileEntities;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.Options;
+global using System;
+global using System.Collections.Generic;
+global using System.IO;
+global using System.Linq;
+global using System.Threading;
+global using System.Threading.Tasks;
